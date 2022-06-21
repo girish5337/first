@@ -18,5 +18,5 @@ from django.urls import path
 from app.views import karma
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('karma/',karma,name='karma')
+    path('karma/',karma,name='karma'),
 ]
